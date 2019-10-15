@@ -1,0 +1,20 @@
+{
+  "name": "logintwitter",
+  "version": "1.0.0",
+  "description": "LogIn with Twitter Auth",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ignacio Arias",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
